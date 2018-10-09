@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Product.delete_all
+product = Product.create( price: 10 )
+product_1 = Product.create( title: "hi")
+puts Product.count
+puts "There's a #{product.inspect}"
